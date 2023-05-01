@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6152297508671069948}
   - component: {fileID: 6152297508671069949}
-  - component: {fileID: 8220141056326222217}
-  - component: {fileID: 6383129137892219284}
-  - component: {fileID: 8372006657518777350}
+  - component: {fileID: 6152297508926974434}
+  - component: {fileID: 6152297508926974432}
+  - component: {fileID: 6152297508926974433}
   m_Layer: 0
   m_Name: KillZone
   m_TagString: KillZone
@@ -61,7 +61,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 30.76, y: 5}
   m_EdgeRadius: 0
---- !u!82 &8220141056326222217
+--- !u!82 &6152297508926974434
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,7 +71,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 27d64bdeebbaf48d89015b1ef6382a9d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8ce1a4faf7582405496539e805801e6e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -157,22 +157,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6383129137892219284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6152297508671069951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
---- !u!114 &8372006657518777350
+--- !u!114 &6152297508926974432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,3 +173,18 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 8d4524813ab904dbdb0fa335736d22fe, type: 2}
+--- !u!114 &6152297508926974433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6152297508671069951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []

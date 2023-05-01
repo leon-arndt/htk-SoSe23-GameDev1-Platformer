@@ -94,9 +94,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2382703805518375561}
   - component: {fileID: 4555097500328498864}
-  - component: {fileID: 1652373291853713668}
-  - component: {fileID: 1906200410815677964}
-  - component: {fileID: 8075688632176862129}
+  - component: {fileID: 5090179438772306986}
+  - component: {fileID: 5293093312686919450}
+  - component: {fileID: 3225698706180867919}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Checkpoint
@@ -146,7 +146,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!114 &1652373291853713668
+--- !u!114 &5090179438772306986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,7 +161,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &1906200410815677964
+--- !u!114 &5293093312686919450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,7 +177,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 067074fedd58b4ea284239781731510b, type: 2}
---- !u!82 &8075688632176862129
+--- !u!82 &3225698706180867919
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,9 +187,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 754a8f32fe808418383fb0f00a252c74, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 335b49731d38a450b87440cd8a5be3fc, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.507
   m_Pitch: 1
   Loop: 0
   Mute: 0
