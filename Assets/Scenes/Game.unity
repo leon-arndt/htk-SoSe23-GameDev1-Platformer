@@ -5334,7 +5334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Score","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1937727685}
 --- !u!4 &1589501238
@@ -6591,11 +6592,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3332193387366437835, guid: ae9881cef67f041e7a476910f2f2a3a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.07
+      value: 1.45
       objectReference: {fileID: 0}
     - target: {fileID: 3332193387366437835, guid: ae9881cef67f041e7a476910f2f2a3a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.09
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 3332193387366437835, guid: ae9881cef67f041e7a476910f2f2a3a4, type: 3}
       propertyPath: m_LocalPosition.z
