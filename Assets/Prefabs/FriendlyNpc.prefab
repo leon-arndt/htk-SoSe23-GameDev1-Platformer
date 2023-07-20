@@ -327,6 +327,7 @@ GameObject:
   - component: {fileID: 8649610268175506062}
   - component: {fileID: 1534823397953099625}
   - component: {fileID: 2205421424699025150}
+  - component: {fileID: 5285052479293442712}
   m_Layer: 0
   m_Name: FriendlyNpc
   m_TagString: Untagged
@@ -482,3 +483,38 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 7e8d689e5af9d4fd49a7b462f7b6a13f, type: 2}
+--- !u!114 &5285052479293442712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436027772757376317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: 0.31780362, y: -0.8625139, z: 0}
+  - {x: -0.21791172, y: -0.8265228, z: 0}
+  - {x: -0.3615017, y: -0.5331, z: 0}
+  - {x: -0.49379182, y: 0.3880428, z: 0}
+  - {x: -0.3302865, y: 0.8341261, z: 0}
+  - {x: 0.39390326, y: 0.58781993, z: 0}
+  - {x: 0.5125239, y: 0.21606481, z: 0}
+  - {x: 0.3564477, y: -0.14603138, z: 0}
+  - {x: 0.48130584, y: -0.5753341, z: 0}
+  m_ShapePathHash: 1184790419
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 37698
+  m_LocalBounds:
+    m_Center: {x: 0.009366035, y: -0.0141938925, z: 0}
+    m_Extent: {x: 0.50315785, y: 0.84832, z: 0}
